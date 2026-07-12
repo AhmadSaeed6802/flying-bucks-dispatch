@@ -3,7 +3,7 @@ import './App.css'
 
 const WHATSAPP_NUMBER = '15593074688'
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-  "Hello Flying Bucks Dispatch, I'm interested in your truck dispatch services."
+  'Can we get more information about the service?'
 )}`
 const GMAIL_URL =
   'https://mail.google.com/mail/?view=cm&fs=1&to=flyingbucksdispatch@gmail.com&su=' +
