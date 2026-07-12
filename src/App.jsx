@@ -1,7 +1,7 @@
 import logoIcon from './assets/logo-icon.png'
 import './App.css'
 
-const WHATSAPP_NUMBER = '923254310951'
+const WHATSAPP_NUMBER = '15593074688'
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
   "Hello Flying Bucks Dispatch, I'm interested in your truck dispatch services."
 )}`
@@ -179,7 +179,7 @@ function App() {
             </p>
             <div className="contact-actions">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
-                💬 WhatsApp: +92 325 4310951
+                💬 WhatsApp: +1 559 307 4688
               </a>
               <a href={GMAIL_URL} target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-lg">
                 ✉️ flyingbucksdispatch@gmail.com
