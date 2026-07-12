@@ -30,13 +30,9 @@
 }
 
 .brand-logo {
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 1.5px solid var(--border);
-  box-shadow: 0 1px 4px var(--shadow);
-  background: var(--white);
+  height: 46px;
+  width: auto;
+  object-fit: contain;
 }
 
 .brand-name {
@@ -362,10 +358,12 @@
 }
 
 .footer-logo {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  object-fit: cover;
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  background: var(--white);
+  padding: 3px 6px;
 }
 
 .footer-copy {

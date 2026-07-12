@@ -1,4 +1,4 @@
-import logo from './assets/logo.jpeg'
+import logoIcon from './assets/logo-icon.png'
 import './App.css'
 
 const WHATSAPP_NUMBER = '923254310951'
@@ -55,7 +55,7 @@ function App() {
       <header className="header">
         <div className="container header-inner">
           <a href="#home" className="brand">
-            <img src={logo} alt="Flying Bucks Dispatch logo" className="brand-logo" />
+            <img src={logoIcon} alt="Flying Bucks Dispatch logo" className="brand-logo" />
             <span className="brand-name">
               Flying Bucks <span className="brand-name-accent">Dispatch</span>
             </span>
@@ -192,7 +192,7 @@ function App() {
       <footer className="footer">
         <div className="container footer-inner">
           <div className="footer-brand">
-            <img src={logo} alt="Flying Bucks Dispatch logo" className="footer-logo" />
+            <img src={logoIcon} alt="Flying Bucks Dispatch logo" className="footer-logo" />
             <span>Flying Bucks Dispatch</span>
           </div>
           <p className="footer-copy">
